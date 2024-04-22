@@ -987,7 +987,7 @@ class Data {
         ?: 0.let{
             Column(
                 modifier = Modifier
-                    .twoColoredTemperatureBg(Color.hsl(300f, 1f, 0.5f), Color.hsl(330f, 1f, 0.3f))
+                    .twoColoredTemperatureBg(Color.hsl(300f, 1f, 0.4f), Color.hsl(330f, 1f, 0.3f))
                     .fillMaxSize()
                     .verticalScroll(rememberScrollState())
             )
